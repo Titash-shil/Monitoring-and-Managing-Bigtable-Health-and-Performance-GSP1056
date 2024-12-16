@@ -11,7 +11,8 @@
 ```
 export ZONE=
 ```
-- Check [here](https://console.cloud.google.com/bigtable/instances/sandiego?) and use another `ZONE` for `sandiego-traffic-sensors-c2` 
+- Check [here](https://console.cloud.google.com/bigtable/instances/sandiego?) and use another `ZONE` for `sandiego-traffic-sensors-c2`
+- like if you get `us-central-a` then export the zone as `us-central-b`
 ```
 curl -LO raw.githubusercontent.com/Titash-shil/Monitoring-and-Managing-Bigtable-Health-and-Performance-GSP1056/refs/heads/main/qwiklab_explorers_ts_gsp1056.sh
 
